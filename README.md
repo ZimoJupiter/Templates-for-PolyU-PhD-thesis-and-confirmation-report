@@ -12,7 +12,13 @@ or
 
 ## Preview of the templates:
 
+Title page of confirmation report template:
 ![image](https://github.com/ZimoJupiter/Templates-for-PolyU-PhD-thesis-and-confirmation-report/blob/main/PolyU_PhD_Confirmation_Report_Template%20conv%201.jpeg)
 
+Cover page of thesis template:
 
 ![image](https://github.com/ZimoJupiter/Templates-for-PolyU-PhD-thesis-and-confirmation-report/blob/main/PolyU_PhD_Thesis_Template%20conv%201.jpeg)
+
+Title page of thesis template:
+
+![image](https://github.com/ZimoJupiter/Templates-for-PolyU-PhD-thesis-and-confirmation-report/blob/main/PolyU_PhD_Thesis_Template%20conv%202.jpeg)
