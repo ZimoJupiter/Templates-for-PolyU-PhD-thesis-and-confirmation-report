@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry} % 25mm margins
+\usepackage{fontspec}
+\setmainfont{Times New Roman} % Conventional 12pt font (10-12 chars/inch)
+\usepackage{setspace}
+\onehalfspacing % Main text: 1.5 line spacing
+\usepackage{lipsum}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+\usepackage{longtable,tabularx}
+\usepackage{subfigure, booktabs}
+\usepackage{amsmath, mathrsfs}
+\tolerance=2500
+\hbadness=2500
+
+\usepackage{chngcntr}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\singlespacing}
+\AtBeginEnvironment{footnote}{\singlespacing}
+
+\usepackage{titlesec}
+\usepackage{titletoc}
+\titleformat{\section}[display] %Section title
+    {\Large\bf}{Chapter \thesection}{0em}
+    {\Large\bf}
+    \titlespacing*{\section}{0em}{2em}{2em}
+\titlecontents{section}
+    [1em]
+    {}
+    {\bfseries Chapter \thecontentslabel\quad}
+    {\bfseries}
+    {\bfseries\titlerule*[0em]{.}\contentspage}
+\titleformat{\subsection} %Subsection title
+    {\large\bfseries}
+    {\thesubsection}{1em}{}
+    \titlespacing*{\subsection}{0em}{2em}{2em}
+\titleformat{\subsubsection} %Subsubection title
+    {\large\bfseries}
+    {\thesubsubsection}{1em}{}
+    \titlespacing*{\subsubsection}{0em}{2em}{2em}
+
+
+
+
+\begin{document}
+
+\pagenumbering{roman}
+\addcontentsline{toc}{section}{Title Page}
+\include{matters/title}
+
+\clearpage
+\addcontentsline{toc}{section}{Abstract}
+\include{matters/abstract}
+
+\clearpage
+\renewcommand{\contentsname}{Table of Contents}
+\addcontentsline{toc}{section}{Table of Contents}
+\tableofcontents
+
+\clearpage 
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+
+\clearpage 
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+\clearpage
+\include{matters/nomenclature}
+
+\clearpage 
+\pagenumbering{arabic}
+\include{chapters/introduction/introduction}
+
+\clearpage 
+\include{chapters/literature/literature}
+
+\clearpage 
+\include{chapters/methodology/methodology}
+
+\clearpage 
+\include{chapters/results/results}
+
+\clearpage 
+\include{chapters/significance/significance}
+
+\clearpage 
+\include{chapters/future/future}
+
+\clearpage 
+\include{chapters/conclusion/conclusion}
+
+\clearpage
+\addcontentsline{toc}{section}{Appendices}
+\include{matters/appendices}
+
+\clearpage 
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{myunsrt} 
+\bibliography{references}
+
+\end{document}
