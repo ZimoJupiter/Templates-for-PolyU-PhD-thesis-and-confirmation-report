@@ -1,8 +1,8 @@
 # Templates-for-PolyU-PhD-thesis-and-confirmation-report
 
-These templates are for the PhD Confirmation Report and PhD Thesis at The Hong Kong Polytechnic University (PolyU). Please replace all text with your actual research content and personal information, as PolyU does not have a music department.
+These templates are for the **[PhD Confirmation Report](https://www.overleaf.com/read/kqqygtwnydpc#46c89c)** and **[PhD Thesis](https://www.overleaf.com/read/gxsnjdqdppwk#c60eb4)** at The Hong Kong Polytechnic University (PolyU). Please replace all text with your actual research content and personal information, as PolyU does not have a music department.
 
-If the code contains any bugs or is against university regulations, please feel free to contact me at:
+If the code contains any bugs or is against university regulations, please feel free to contact me via:
 
 `w.zimo@outlook.com`
 
